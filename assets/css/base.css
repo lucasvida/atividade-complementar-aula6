@@ -1,0 +1,160 @@
+  /* Estilos Gerais */
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500;600;700;900&family=Montserrat:wght@400;700&family=Quicksand:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+
+  .container-principal {
+      width: 75%;
+      margin: 0 auto;
+      padding: 25px;
+  }
+
+  body {
+      color: #FFFFFF;
+      background-color: #0F172A;
+      font-family: 'Inter', sans-serif;
+  }
+
+
+  h3,
+  h4,
+  h5,
+  h6 {
+      color: #E65100;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  /*Informações */
+
+  .infos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .card-info {
+      width: 20%;
+      height: 75px;
+      background-color:
+          /* #7B0828; */
+          #E65100;
+      border-radius: 10px;
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  /* Receita */
+
+  .receita {
+      width: 50%;
+      height: 900px;
+      margin: 0 auto;
+
+  }
+
+  .como-fazer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .ingredientes {
+      width: 45%;
+      height: 400px;
+  }
+
+  .modo-de-preparo {
+      width: 45%;
+      height: 400px;
+  }
+
+  .credito {
+      font-size: 0.75em;
+      font-style: italic;
+  }
+
+  .credito a {
+      text-decoration: none;
+      color: #E65100;
+  }
+
+
+  /* Tabela */
+
+  table {
+      font-family: 'Inclusive Sans', sans-serif;
+      border: solid 1px #312E81;
+      padding: 5px;
+      text-align: center;
+      font-size: 1.2em;
+      border-collapse: collapse;
+      width: 45%;
+      margin: 0 auto;
+  }
+
+  table caption {
+      padding: 5px;
+      text-align: center;
+      font-size: 1.2em;
+      color: #EA580C;
+  }
+
+  table th {
+      padding: 12px;
+      width: 150px;
+      background-color: #3730A3;
+      color: #fff;
+
+  }
+
+  table td {
+      padding: 10px;
+      width: 150px;
+      font-size: 0.75em;
+      font-weight: 600;
+
+
+  }
+
+  .line {
+      background-color: #8babca;
+  }
+
+  /*Artigo */
+
+
+  .artigo {
+      width: 50%;
+      padding: 15px;
+      margin: 50px auto;
+
+  }
+
+  p {
+      line-height: 1.2em;
+      letter-spacing: 1px;
+      font-size: 1.2em;
+  }
+
+  /* Rodapé */
+
+  footer {
+      width: 100vw;
+      position: fixed;
+      bottom: 0px;
+      right: -5px;
+      background-color: #164E63;
+      padding: 25px;
+      margin-top: 50px;
+      text-align: center;
+
+  }
